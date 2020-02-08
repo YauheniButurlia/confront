@@ -13,11 +13,11 @@ const HomeScreen = (props) => {
           <Text style={{ color: 'red', fontSize: 100 }}>7</Text>
         </View>
       </View>
-      <View style={{ backgroundColor: 'green', flex: 1, justifyContent: 'space-around', alignItems: 'center' }}>
-        <TouchableOpacity onPress={() => {}}>
+      <View style={{ backgroundColor: 'green', flex: 1 }}>
+        <TouchableOpacity style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }} onPress={() => {}}>
           <Text style={{ fontSize: 70, color: 'white' }}>I won</Text>
         </TouchableOpacity>
-        <TouchableOpacity onPress={() => {}}>
+        <TouchableOpacity style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }} onPress={() => {}}>
           <Text style={{ fontSize: 70, color: 'white' }}>I lost</Text>
         </TouchableOpacity>
       </View>
