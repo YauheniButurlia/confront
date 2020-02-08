@@ -7,7 +7,9 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "prepair-ios": "rm -rf node_modules && npm install && cd ios && rm -rf Pods && pod install && cd ..",
+    "prepair-android": "rm -rf node_modules && npm install"
   },
   "dependencies": {
     "@react-native-community/masked-view": "0.1.6",
